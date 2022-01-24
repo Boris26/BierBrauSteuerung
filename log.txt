@@ -1,0 +1,46 @@
+2021-12-04 14:47:39.976347 Sensor Thread wurde gestartet
+2021-12-04 14:47:39.977570 cannot set daemon status of active thread
+2021-12-04 15:21:20.439779 Sensor Thread wurde gestartet
+2021-12-04 15:21:20.442023 cannot set daemon status of active thread
+2021-12-04 16:57:14.556408 Sensor Thread wurde gestartet
+2021-12-04 16:57:14.557602 cannot set daemon status of active thread
+2021-12-04 17:00:59.626899 Sensor Thread wurde gestartet
+2021-12-04 17:00:59.628086 cannot set daemon status of active thread
+2021-12-04 19:20:56.301542 Sensor Thread wurde gestartet
+2021-12-04 19:20:56.302716 cannot set daemon status of active thread
+2021-12-04 19:23:59.780422 Sensor Thread wurde gestartet
+2021-12-04 19:23:59.781594 cannot set daemon status of active thread
+2021-12-04 19:43:19.379281 Sensor Thread wurde gestartet
+2021-12-04 19:43:19.380456 cannot set daemon status of active thread
+2021-12-04 19:45:41.022415 Sensor Thread wurde gestartet
+2021-12-04 19:45:41.023716 cannot set daemon status of active thread
+2021-12-04 19:49:38.164264 Sensor Thread wurde gestartet
+2021-12-04 19:49:38.165428 cannot set daemon status of active thread
+2021-12-04 19:57:18.040637 Sensor Thread wurde gestartet
+2021-12-04 19:57:18.041813 cannot set daemon status of active thread
+2021-12-04 20:00:24.044881 Sensor Thread wurde gestartet
+2021-12-04 20:00:24.046065 cannot set daemon status of active thread
+2021-12-04 20:03:43.427894 Sensor Thread wurde gestartet
+2021-12-04 20:03:43.429095 cannot set daemon status of active thread
+2021-12-04 22:15:35.269648 Sensor Thread wurde gestartet
+2021-12-04 22:15:35.270828 cannot set daemon status of active thread
+2021-12-04 22:18:00.597787 Sensor Thread wurde gestartet
+2021-12-04 22:18:00.598946 cannot set daemon status of active thread
+2021-12-04 22:19:18.166853 Sensor Thread wurde gestartet
+2021-12-04 22:19:18.168017 cannot set daemon status of active thread
+2021-12-04 22:22:26.289905 Sensor Thread wurde gestartet
+2021-12-04 22:22:26.291080 cannot set daemon status of active thread
+2021-12-04 22:29:10.172203 Sensor Thread wurde gestartet
+2021-12-04 22:29:10.173507 cannot set daemon status of active thread
+2021-12-04 22:33:48.802911 Sensor Thread wurde gestartet
+2021-12-04 22:33:48.804376 cannot set daemon status of active thread
+2021-12-04 22:34:29.212478 Sensor Thread wurde gestartet
+2021-12-04 22:34:29.213800 cannot set daemon status of active thread
+2021-12-04 22:53:20.754173 Sensor Thread wurde gestartet
+2021-12-04 22:53:20.755389 cannot set daemon status of active thread
+2021-12-04 23:08:35.313197 Sensor Thread wurde gestartet
+2021-12-04 23:08:35.315268 cannot set daemon status of active thread
+2021-12-07 14:13:49.866553 Sensor Thread wurde gestartet
+2021-12-07 14:13:49.869320 cannot set daemon status of active thread
+2021-12-07 14:14:07.303104 Sensor Thread wurde gestartet
+2021-12-07 14:14:07.304247 cannot set daemon status of active thread

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <Pi>
+        <GPIOMode>BCM</GPIOMode>
+        <GPIOwarnings>false</GPIOwarnings>
+    </Pi>
+    <DS18B20>
+        <SensorID>/sys/bus/w1/devices/28-3c01d0755d8b/w1_slave</SensorID>
+        <ReadingInterval>1</ReadingInterval>
+        <TemperatureTolerance>3</TemperatureTolerance>
+    </DS18B20>
+    <KY040>
+    </KY040>
+    <Buzzer>
+        <GPIOPin>13</GPIOPin>
+        <MODE>OUT</MODE>
+        <PWMFrequenz>0.5</PWMFrequenz>
+    </Buzzer>
+    <Relais>
+        <GPIOPin>10</GPIOPin>
+        <ToggleTime>0.02</ToggleTime>
+    </Relais>
+    <BMP180>
+
+    </BMP180>
+    <WebApp>
+        <Debug>True</Debug>
+        <Port>80</Port>
+        <Host>0.0.0.0</Host>
+        <Threaded>True</Threaded>
+    </WebApp>
+</config>
