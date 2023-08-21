@@ -15,17 +15,17 @@ class DS18B20Controller():
     def __startThread(self):
             try:
                 self.thread.start()
-                self.log.writeLog('Sensor Thread wurde gestartet')
+                #self.log.writeLog('Sensor Thread wurde gestartet')
                 self.thread.daemon = False
                 print("run")
             except Exception as e:
-                self.log.writeLog(str(e))
+                pass
+                #self.log.writeLog(str(e))
 
     def add(self,obj):
         self.__receivers.add(obj)
 
     def __running(self):
-
         while self.__isRunning:
             try:
                 self.__sensor = open(self.__sensorId, "r")

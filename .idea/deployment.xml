@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="PIWeb" remoteFilesAllowedToDisappearOnAutoupload="false" autoUploadExternalChanges="true">
+  <component name="PublishConfigData" autoUpload="Always" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false" autoUploadExternalChanges="true">
+    <option name="confirmBeforeUploading" value="false" />
     <serverData>
-      <paths name="PIWeb">
+      <paths name="BraumeisterApp">
         <serverdata>
           <mappings>
-            <mapping deploy="/BrauSteuerung" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/Brewmaster/App" local="$PROJECT_DIR$" />
           </mappings>
           <excludedPaths>
-            <excludedPath path="/BrauSteuerung/main.py" />
-            <excludedPath path="/BrauSteuerung/Backend/ConfigControl/config.xml" />
+            <excludedPath path="/Brewmaster/App/Backend/ConfigControl/config.xml" />
           </excludedPaths>
         </serverdata>
       </paths>

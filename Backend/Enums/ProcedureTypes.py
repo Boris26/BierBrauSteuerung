@@ -5,4 +5,4 @@ class ProcedureTyps(enum):
     MASHING_IN = "Einmaischen"
     MASHING_OUT = "Abmaischen"
     RAST = "Rast"
-    COOKING = "Würze Kochen"
+    COOKING = "Kochen"

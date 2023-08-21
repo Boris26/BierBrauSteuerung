@@ -5,15 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="161eb7b3-eb4f-4224-a372-f0a2b247466a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/BierBrauSteuerung.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/BierBrauSteuerung.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Startup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Controller/WaterFillingController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BierBrauSteuerung.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BierBrauSteuerung.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/BierBrauSteuerung.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/BierBrauSteuerung.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/ConfigControl/ReadConfigXML.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/ConfigControl/ReadConfigXML.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Controller/BMP180PressureController.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Controller/BMP280PressureController.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Controller/BuzzerController.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Controller/DS18B20Controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Controller/DS18B20Controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Controller/DisplayHD4470Controller.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Controller/Menu/IMenuController.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Controller/Menu/KYController.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Controller/Menu/MainMenu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Controller/Menu/RecipeMenu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Controller/Menu/StartMenu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Controller/MenuController.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Controller/MixerController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Controller/MixerController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Controller/ProcedureController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Controller/ProcedureController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Controller/RecipeImportController.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Controller/lcddriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Enums/ProcedureTypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Enums/ProcedureTypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/InitGPIO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/InitGPIO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Logging/Logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Logging/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Logging/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.py" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +73,21 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Backend/Controller/MixerController.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Backend/ConfigControl/config.xml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Backend/InitGPIO.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Backend/Controller/RelaisController.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Backend/ConfigControl/ReadConfigXML.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Backend/ConfigControl/config.xml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Backend/Controller/MixerController.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Backend/Controller/RelaisController.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Backend/Controller/WaterFillingController.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Backend/InitGPIO.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Startup.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="20KZaldpcZ5y7YENYahjw5T5ZZD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -67,50 +95,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="credentialsType com.jetbrains.python.remote.PyCreateRemoteInterpreterDialog$PyCreateRemoteSdkForm" value="Web Deployment" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.ChangelistConflict" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/boris/Entwicklung/BierBrauSteuerung&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Backend/Logging" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Backend" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Startup">
-    <configuration name="InitGPIO" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BierBrauSteuerung" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backend/Controller" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backend/InitGPIO.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.BierBrauSteuerung">
     <configuration name="Startup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BierBrauSteuerung" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,6 +139,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Startup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WaterFillingController" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BierBrauSteuerung" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backend/Controller" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backend/Controller/WaterFillingController.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,7 +215,103 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="sftp://pi@192.168.178.36:22/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <option name="additionalOptions" value="--host 192.168.178.36 --port 5000" />
+      <module name="BierBrauSteuerung" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="sftp://pi@192.168.178.36:22/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <option name="additionalOptions" value="--host 192.168.178.36 --port 5000" />
+      <module name="BierBrauSteuerung" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="sftp://pi@192.168.178.36:22/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <option name="additionalOptions" value="--host 192.168.178.36 --port 5000" />
+      <module name="BierBrauSteuerung" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="sftp://pi@192.168.178.36:22/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <option name="additionalOptions" value="--host 192.168.178.36 --port 5000" />
+      <module name="BierBrauSteuerung" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="sftp://pi@192.168.178.36:22/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <option name="additionalOptions" value="--host 192.168.178.36 --port 5000" />
+      <module name="BierBrauSteuerung" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="sftp://pi@192.168.178.36:22/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <option name="additionalOptions" value="--host 192.168.178.36 --port 5000" />
+      <module name="BierBrauSteuerung" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="sftp://pi@192.168.178.36:22/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -204,20 +336,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Flask server.Flask (app.py)" />
       <item itemvalue="Flask server.Flask (app.py) (1)" />
+      <item itemvalue="Flask server.Flask (app.py)" />
       <item itemvalue="Python.BierBrauSteuerung" />
-      <item itemvalue="Python.InitGPIO" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.Startup" />
+      <item itemvalue="Python.WaterFillingController" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.WaterFillingController" />
         <item itemvalue="Python.Startup" />
         <item itemvalue="Flask server.Flask (app.py)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Flask server.Flask (app.py) (1)" />
-        <item itemvalue="Python.InitGPIO" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +462,89 @@
       <workItem from="1642778703694" duration="212000" />
       <workItem from="1642778961135" duration="1411000" />
       <workItem from="1642782257140" duration="4142000" />
-      <workItem from="1643036969095" duration="3518000" />
+      <workItem from="1643036969095" duration="4212000" />
+      <workItem from="1643118341922" duration="5385000" />
+      <workItem from="1643185971421" duration="15000" />
+      <workItem from="1644263316761" duration="613000" />
+      <workItem from="1645793929251" duration="599000" />
+      <workItem from="1647267205416" duration="1888000" />
+      <workItem from="1648378319277" duration="377000" />
+      <workItem from="1648399353402" duration="7103000" />
+      <workItem from="1648563972748" duration="7963000" />
+      <workItem from="1649942690085" duration="1887000" />
+      <workItem from="1649964312936" duration="2964000" />
+      <workItem from="1650026709310" duration="745000" />
+      <workItem from="1650367487773" duration="2042000" />
+      <workItem from="1650390414872" duration="720000" />
+      <workItem from="1650396794629" duration="1367000" />
+      <workItem from="1650442681790" duration="6161000" />
+      <workItem from="1650462614960" duration="598000" />
+      <workItem from="1650564016917" duration="596000" />
+      <workItem from="1650822779910" duration="594000" />
+      <workItem from="1650823386575" duration="3000" />
+      <workItem from="1650885022969" duration="262000" />
+      <workItem from="1650887143175" duration="6161000" />
+      <workItem from="1651224962017" duration="291000" />
+      <workItem from="1651837009300" duration="7000" />
+      <workItem from="1652251360923" duration="394000" />
+      <workItem from="1653241885194" duration="2022000" />
+      <workItem from="1653510273973" duration="555000" />
+      <workItem from="1653744013553" duration="1869000" />
+      <workItem from="1655415880906" duration="138000" />
+      <workItem from="1656351504307" duration="6899000" />
+      <workItem from="1656403698640" duration="11208000" />
+      <workItem from="1656491249386" duration="541000" />
+      <workItem from="1657096240943" duration="1151000" />
+      <workItem from="1657106914105" duration="8226000" />
+      <workItem from="1657203833136" duration="7058000" />
+      <workItem from="1657282899849" duration="5132000" />
+      <workItem from="1657303666441" duration="12102000" />
+      <workItem from="1657449529999" duration="17632000" />
+      <workItem from="1657532021757" duration="60000" />
+      <workItem from="1657558903978" duration="639000" />
+      <workItem from="1657793296588" duration="599000" />
+      <workItem from="1660894890824" duration="1802000" />
+      <workItem from="1660907615051" duration="8000" />
+      <workItem from="1663684983454" duration="1084000" />
+      <workItem from="1663686308949" duration="598000" />
+      <workItem from="1663833866366" duration="217000" />
+      <workItem from="1663869566232" duration="2923000" />
+      <workItem from="1664023620422" duration="1606000" />
+      <workItem from="1665761365094" duration="3816000" />
+      <workItem from="1666115088745" duration="2509000" />
+      <workItem from="1666200478391" duration="610000" />
+      <workItem from="1666443468542" duration="1315000" />
+      <workItem from="1666806865042" duration="2453000" />
+      <workItem from="1666862880725" duration="11142000" />
+      <workItem from="1666993799877" duration="13000" />
+      <workItem from="1667159872044" duration="67000" />
+      <workItem from="1667159947957" duration="29000" />
+      <workItem from="1667205661336" duration="284000" />
+      <workItem from="1667238865426" duration="597000" />
+      <workItem from="1667239475679" duration="6021000" />
+      <workItem from="1687854930112" duration="893000" />
+      <workItem from="1688293321078" duration="678000" />
+      <workItem from="1688498649024" duration="1501000" />
+      <workItem from="1689885673655" duration="820000" />
+      <workItem from="1689938334338" duration="1280000" />
+      <workItem from="1690031837696" duration="2475000" />
+      <workItem from="1690061456882" duration="666000" />
+      <workItem from="1690324104648" duration="599000" />
+      <workItem from="1690481757538" duration="4719000" />
+      <workItem from="1690492629874" duration="32000" />
+      <workItem from="1690565057959" duration="2740000" />
+      <workItem from="1690651717021" duration="3224000" />
+      <workItem from="1690744213203" duration="1194000" />
+      <workItem from="1690826967045" duration="44000" />
+      <workItem from="1690832728537" duration="2302000" />
+      <workItem from="1690916248665" duration="4863000" />
+      <workItem from="1691176774225" duration="1122000" />
+      <workItem from="1692204426591" duration="1525000" />
+      <workItem from="1692293160157" duration="4953000" />
+      <workItem from="1692381560744" duration="3981000" />
+      <workItem from="1692520197353" duration="82000" />
+      <workItem from="1692526531603" duration="2635000" />
+      <workItem from="1692633021256" duration="3706000" />
     </task>
     <servers />
   </component>
@@ -357,29 +571,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$USER_HOME$/.cache/JetBrains/PyCharm2021.2/remote_sources/-973414363/125375885/adafruit_bmp280.py</url>
           <line>128</line>
           <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Backend/Controller/ProcedureController.py</url>
-          <line>103</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Backend/Controller/BMP280PressureController.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app.py</url>
-          <line>56</line>
-          <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -392,11 +586,12 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/BierBrauSteuerung$InitGPIO.coverage" NAME="InitGPIO Coverage Results" MODIFIED="1636143375604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/Controller" />
     <SUITE FILE_PATH="coverage/BierBrauSteuerung$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1643037010720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/BierBrauSteuerung$Startup.coverage" NAME="Startup Coverage Results" MODIFIED="1643037743496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/BierBrauSteuerung$BierBrauSteuerung.coverage" NAME="BierBrauSteuerung Coverage Results" MODIFIED="1642780147540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BierBrauSteuerung$main.coverage" NAME="main Coverage Results" MODIFIED="1643036982768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BierBrauSteuerung$InitGPIO.coverage" NAME="InitGPIO Coverage Results" MODIFIED="1636143375604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/Controller" />
     <SUITE FILE_PATH="coverage/BierBrauSteuerung$Flask__app_py___1_.coverage" NAME="Flask (app.py) (1) Coverage Results" MODIFIED="1642780355857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BierBrauSteuerung$Startup.coverage" NAME="Startup Coverage Results" MODIFIED="1643037743496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BierBrauSteuerung$BierBrauSteuerung.coverage" NAME="BierBrauSteuerung Coverage Results" MODIFIED="1692387640771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BierBrauSteuerung$WaterFillingController.coverage" NAME="WaterFillingController Coverage Results" MODIFIED="1644263861308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backend/Controller" />
   </component>
 </project>

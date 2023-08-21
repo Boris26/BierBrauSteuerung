@@ -10,7 +10,7 @@ class ReadConfigXML:
         self.__KY040Config = dict()
         self.__BMP180Config = dict()
         self.__WebAppConfig = dict()
-        __tree = ET.parse('/home/pi/BrauSteuerung/Backend/ConfigControl/config.xml')
+        __tree = ET.parse('/home/boris/Brewmaster/App/Backend/ConfigControl/config.xml')
         root = __tree.getroot()
         for elem in root:
             for subelem in elem:

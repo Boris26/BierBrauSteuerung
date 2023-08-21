@@ -1,10 +1,9 @@
 import RPi.GPIO as GPIO
 import time, sys
 
-# import paho.mqtt.publish as publish
+
 
 FLOW_SENSOR_GPIO=18
-# MQTT_SERVER = "192.168.1.220"
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(FLOW_SENSOR_GPIO, GPIO.IN, pull_up_down = GPIO.PUD_UP)
